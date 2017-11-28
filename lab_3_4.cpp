@@ -33,6 +33,7 @@ int main() {
     a = b * a + 20 * (20 - 15) / 10;
 
     // เขียนแสดงผลค่า a
+    cout <<"sum  : " << a << endl;
 
   return 0;
 }
