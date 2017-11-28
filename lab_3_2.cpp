@@ -6,6 +6,19 @@ int main() {
   // เขียนโปรแกรมเพิ่ม เพื่อหาขนาดตัวแปรที่กำหนด
    cout << "Size of char : " << sizeof(char) << endl;
    cout << "size of signed char : " << sizeof(signed char) << endl;
+   cout << "size of unsigned char : " << sizeof(unsigned char) << endl;
+   cout << "size of int : " << sizeof(int) << endl;
+   cout << "size of signed int : " << sizeof(signed int) << endl;
+   cout << "size of unsigned int : " << sizeof(unsigned int) << endl;
+   cout << "size of short int : " << sizeof(short int) << endl;
+   cout << "size of signed short int : " << sizeof(signed short int) << endl;
+   cout << "size of unsigned short int : " << sizeof(unsigned short int) << endl;
+   cout << "size of signed long int : " << sizeof(signed long int) << endl;
+   cout << "size of unsigned long int : " << sizeof(unsigned long int) << endl;
+   cout << "size of double : " << sizeof(double) << endl;
+   cout << "size of long double : " << sizeof(long double) << endl;
+   cout << "size of wchar_t : " << sizeof(wchar_t) << endl;
+   cout << "size of bool : " << sizeof(bool) << endl;
    cout << "Size of short signed int : " << sizeof(short signed int) << endl;
    cout << "Size of short unsigned int : " << sizeof(short unsigned int) << endl;
    cout << "Size of long int : " << sizeof(long int) << endl;
@@ -19,7 +32,34 @@ int main() {
    cout << "Min of signed char : " << numeric_limits<signed char>::min() << endl;
    cout << "Max of signed char : " << numeric_limits<signed char>::max() << endl;
 
+   cout << "Min of unsigned char : " << numeric_limits<unsigned char>::min() << endl;
+   cout << "Max of unsigned char : " << numeric_limits<unsigned char>::max() << endl;
+
    cout << "Min of short int : " << numeric_limits<short int>::min() << endl;
    cout << "Max of short int : " << numeric_limits<short int>::max() << endl;
+
+   cout << "Min of signed short int : " << numeric_limits<signed short int>::min() << endl;
+   cout << "Max of signed short int : " << numeric_limits<signed short int>::max() << endl;
+
+   cout << "Min of unsigned short int : " << numeric_limits<unsigned short int>::min() << endl;
+   cout << "Max of unsigned short int : " << numeric_limits<unsigned short int>::max() << endl;
+
+   cout << "Min of long int : " << numeric_limits<long int>::min() << endl;
+   cout << "Max of long int : " << numeric_limits<long int>::max() << endl;
+
+   cout << "Min of signed long int : " << numeric_limits<signed long int>::min() << endl;
+   cout << "Max of signed long int : " << numeric_limits<signed long int>::max() << endl;
+
+   cout << "Min of unsigned long int : " << numeric_limits<unsigned long int>::min() << endl;
+   cout << "Max of unsigned long int : " << numeric_limits<unsigned long int>::max() << endl;
+
+   cout << "Min of float : " << numeric_limits<float>::min() << endl;
+   cout << "Max of float : " << numeric_limits<float>::max() << endl;
+
+   cout << "Min of wchar_t : " << numeric_limits<wchar_t>::min() << endl;
+   cout << "Max of wchar_t : " << numeric_limits<wchar_t>::max() << endl;
+
+   cout << "Min of short int : " << numeric_limits<bool>::min() << endl;
+   cout << "Max of short int : " << numeric_limits<bool>::max() << endl;
   return 0;
 }
